@@ -2,7 +2,7 @@
   <output prefix='simulation'>
       <properties filename='out' stride='1'> [step, time{picosecond}, potential{kelvin}, kinetic_cv{kelvin}, conserved{kelvin}, temperature{kelvin}, pressure_cv{bar}, volume{angstrom3}, density{g/cm3}] </properties>
     <trajectory filename='pos' stride='1' format='xyz' cell_units='angstrom'> positions{angstrom} </trajectory>
-    <trajectory filename='for' stride='1' format='xyz' cell_units='angstrom'> forces </trajectory>    
+    <trajectory filename='for' stride='1' format='xyz' cell_units='angstrom'> forces </trajectory>
     <checkpoint stride='10'/>
   </output>
   <total_steps>300000</total_steps>
@@ -22,13 +22,13 @@
     </forces>
     <ensemble>
       <temperature units='kelvin'> 298.15 </temperature>
-       <pressure units='bar'> 1 </pressure>
+      <pressure units='bar'> 1 </pressure>
     </ensemble>
     <motion mode='dynamics'>
       <dynamics mode='npt'>
         <barostat mode='isotropic'>
           <tau units='femtosecond'> 1000 </tau>
-          <thermostat mode='langevin'> 
+          <thermostat mode='langevin'>
             <tau units='femtosecond'> 100 </tau>
           </thermostat>
         </barostat>
