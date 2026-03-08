@@ -1,0 +1,27 @@
+TITLE     MDANALYSIS FRAME 0: Created by PDBWriter
+CRYST1   30.000   30.000   30.000  90.00  90.00  90.00 P 1           1
+HETATM    1  C       X   0      16.216  12.279  15.000  0.00  1.00      SYST C  
+HETATM    2  H       X   0      16.286  11.644  14.116  0.00  1.00      SYST H  
+HETATM    3  H       X   0      16.286  11.644  15.884  0.00  1.00      SYST H  
+HETATM    4  H       X   0      17.064  12.967  15.000  0.00  1.00      SYST H  
+HETATM    5  C       X   0      14.917  13.043  15.000  0.00  1.00      SYST C  
+HETATM    6  H       X   0      14.860  13.689  15.886  0.00  1.00      SYST H  
+HETATM    7  H       X   0      14.860  13.689  14.114  0.00  1.00      SYST H  
+HETATM    8  O       X   0      13.853  12.106  15.000  0.00  1.00      SYST O  
+HETATM    9  H       X   0      13.021  12.581  15.000  0.00  1.00      SYST H  
+HETATM   10  O       X   0      14.977  15.563  15.000  0.00  1.00      SYST O  
+HETATM   11  H       X   0      15.937  15.563  15.000  0.00  1.00      SYST H  
+HETATM   12  H       X   0      14.657  16.468  15.000  0.00  1.00      SYST H  
+CONECT    1    2    3    4    5
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    1    6    7    8
+CONECT    6    5
+CONECT    7    5
+CONECT    8    5    9
+CONECT    9    8
+CONECT   10   11   12
+CONECT   11   10
+CONECT   12   10
+END

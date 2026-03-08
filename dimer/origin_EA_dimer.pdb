@@ -1,0 +1,39 @@
+TITLE     MDANALYSIS FRAME 0: Created by PDBWriter
+CRYST1   30.000   30.000   30.000  90.00  90.00  90.00 P 1           1
+HETATM    1  C    EA X   1      16.216  12.279  15.000  0.00  1.00      SYST C  
+HETATM    2  H    EA X   1      16.286  11.644  14.116  0.00  1.00      SYST H  
+HETATM    3  H    EA X   1      16.286  11.644  15.884  0.00  1.00      SYST H  
+HETATM    4  H    EA X   1      17.064  12.967  15.000  0.00  1.00      SYST H  
+HETATM    5  C    EA X   1      14.917  13.043  15.000  0.00  1.00      SYST C  
+HETATM    6  H    EA X   1      14.860  13.689  15.886  0.00  1.00      SYST H  
+HETATM    7  H    EA X   1      14.860  13.689  14.114  0.00  1.00      SYST H  
+HETATM    8  O    EA X   1      13.853  12.106  15.000  0.00  1.00      SYST O  
+HETATM    9  H    EA X   1      13.021  12.581  15.000  0.00  1.00      SYST H  
+HETATM   10  C    EA X   2      16.216  17.279  15.000  0.00  1.00      SYST C  
+HETATM   11  H    EA X   2      16.286  16.644  14.116  0.00  1.00      SYST H  
+HETATM   12  H    EA X   2      16.286  16.644  15.884  0.00  1.00      SYST H  
+HETATM   13  H    EA X   2      17.064  17.967  15.000  0.00  1.00      SYST H  
+HETATM   14  C    EA X   2      14.917  18.043  15.000  0.00  1.00      SYST C  
+HETATM   15  H    EA X   2      14.860  18.689  15.886  0.00  1.00      SYST H  
+HETATM   16  H    EA X   2      14.860  18.689  14.114  0.00  1.00      SYST H  
+HETATM   17  O    EA X   2      13.853  17.106  15.000  0.00  1.00      SYST O  
+HETATM   18  H    EA X   2      13.021  17.581  15.000  0.00  1.00      SYST H  
+CONECT    1    2    3    4    5
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    1    6    7    8
+CONECT    6    5
+CONECT    7    5
+CONECT    8    5    9
+CONECT    9    8
+CONECT   10   11   12   13   14
+CONECT   11   10
+CONECT   12   10
+CONECT   13   10
+CONECT   14   10   15   16   17
+CONECT   15   14
+CONECT   16   14
+CONECT   17   14   18
+CONECT   18   17
+END

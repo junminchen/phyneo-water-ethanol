@@ -1,0 +1,39 @@
+REMARK   1 CREATED WITH OPENMM 8.0, 2024-03-27
+CRYST1   30.000   30.000   30.000  90.00  90.00  90.00 P 1           1
+HETATM    1  C00   E A   1      14.328  13.770  12.764  1.00  0.00           C
+HETATM    2  H01   E A   1      14.689  13.064  13.538  1.00  0.00           H
+HETATM    3  H02   E A   1      14.372  13.242  11.812  1.00  0.00           H
+HETATM    4  H03   E A   1      13.257  14.016  12.893  1.00  0.00           H
+HETATM    5  C04   E A   1      15.234  15.039  12.830  1.00  0.00           C
+HETATM    6  H05   E A   1      15.070  15.849  12.110  1.00  0.00           H
+HETATM    7  H06   E A   1      15.140  15.517  13.835  1.00  0.00           H
+HETATM    8  O07   E A   1      16.611  14.676  12.561  1.00  0.00           O
+HETATM    9  H08   E A   1      17.113  15.482  12.629  1.00  0.00           H
+HETATM   10  C00  EA A   2      14.779  14.219  16.855  1.00  0.00           C
+HETATM   11  H01  EA A   2      15.291  14.382  15.928  1.00  0.00           H
+HETATM   12  H02  EA A   2      14.075  13.426  16.764  1.00  0.00           H
+HETATM   13  H03  EA A   2      15.430  13.777  17.585  1.00  0.00           H
+HETATM   14  C04  EA A   2      14.104  15.459  17.428  1.00  0.00           C
+HETATM   15  H05  EA A   2      13.306  15.653  16.753  1.00  0.00           H
+HETATM   16  H06  EA A   2      13.662  15.193  18.350  1.00  0.00           H
+HETATM   17  O07  EA A   2      14.931  16.572  17.452  1.00  0.00           O
+HETATM   18  H08  EA A   2      15.634  16.435  18.082  1.00  0.00           H
+CONECT    1    2    3    4    5
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    1    6    7    8
+CONECT    6    5
+CONECT    7    5
+CONECT    8    5    9
+CONECT    9    8
+CONECT   10   11   12   13   14
+CONECT   11   10
+CONECT   12   10
+CONECT   13   10
+CONECT   14   10   15   16   17
+CONECT   15   14
+CONECT   16   14
+CONECT   17   14   18
+CONECT   18   17
+END
