@@ -167,14 +167,17 @@ def slater_sr_hc_kernel(dr, m, ai, aj, bi, bj):
     br2 = br * br
     P = 1/3 * br2 + br + 1 
 
-    alpha = 0.24
-    x = alpha * br
-    x2 = x * x
-    x4 = x2 * x2
-    x8 = x4 * x4
-    x12 = x4 * x8
-    x14 = x12 * x2
-    HardCorePotential = a / x14 * m 
+    # alpha = 0.24
+    # x = alpha * br
+    s12 = 1.69
+    x = (s12/dr)**12
+
+    # x2 = x * x
+    # x4 = x2 * x2
+    # x8 = x4 * x4
+    # x12 = x4 * x8
+    # x14 = x12 * x2
+    HardCorePotential = x * m 
     return a * P * jnp.exp(-br) * m + HardCorePotential 
 
 @vmap

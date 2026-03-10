@@ -61,7 +61,7 @@
       <Atom type="380" kz="381" kx="-381" c0="-0.803721" dX="0.0" dY="0.0" dZ="-0.00784325" qXX="0.00036647595" qXY="0.0" qYY="-0.00038179905" qXZ="0.0" qYZ="0.0" qZZ="1.53231e-05" />
       <Atom type="381" kz="380" kx="381" c0="0.401876" dX="-0.0012171300000000003" dY="0.0" dZ="-0.00095895" qXX="6.7161e-06" qXY="0.0" qYY="-3.37874e-05" qXZ="1.2590499999999999e-05" qYZ="0.0" qZZ="2.7071299999999996e-05" />
       <Polarize type="380" polarizabilityXX="0.0011249" polarizabilityYY="0.0011249" polarizabilityZZ="0.0011249" thole="0.33" />
-      <Polarize type="381" polarizabilityXX="0.00026906" polarizabilityYY="0.00026906" polarizabilityZZ="0.00026906" thole="0.33" />
+      <Polarize type="381" polarizabilityXX="1e-5" polarizabilityYY="1e-5" polarizabilityZZ="1e-5" thole="0.33" />
    </ADMPPmeForce>
    <ADMPDispPmeForce mScale12="0.00" mScale13="0.00" mScale14="0.00" mScale15="0.00" mScale16="0.00">
       <Atom type="1" C6="0.001850198" C8="0.0001559165" C10="6.19126e-06" />
